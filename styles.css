@@ -1,0 +1,157 @@
+body {
+    background-color: black;
+    color: #46BCDE;
+    margin: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.top-nav {
+    background-color: #656565;
+    overflow: hidden;
+}
+
+.top-nav a {
+    float: left;
+    color: #e5c454;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.top-nav a:hover {
+    background-color: #e5c454;
+    color: black;
+  }
+
+h1 {
+    text-align: center;
+    color: #E57254;
+    font-size: 300%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 230%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    color: #D6dbdc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image-1 {
+    width:100%;
+   
+    position: relative;
+    right: 10%;
+    padding-left: 20%;
+}
+
+.mission {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5fr 1fr 1fr;
+    column-gap: 15px;
+    position: relative;
+
+}
+
+.quote {
+    width: calc(10px +100px);
+    color: #E94F64;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    bottom: 0%;
+}
+
+@media (min-width:1400px) {.mission {
+    font-size: 20px !important;
+}}
+
+@media (min-width:1400px) {.quote {
+    font-size: 40px !important;
+}}
+
+@media (min-width:1800px) {.image-1 {
+    width: 250px !important;}}
+
+@media (max-width:800px) {.image-1 {
+        width: 200px !important;}}
+
+.line {
+    border-bottom:  1px solid #888;
+}
+
+.image-2 {
+    width: 10%;
+    margin-left: 5%;
+    float: right;
+}
+
+.para-1 {
+    align-items: center;
+    text-size-adjust: auto;
+}
+
+.h2-align {
+    text-align: right;
+}
+
+.image-3 {
+    width: 10%;
+    margin-right: 5%;
+    float: left;
+}
+
+.para-2 {
+    align-items: center;
+    text-size-adjust: auto;
+    
+}
+
+.image-4 {
+    width: 10%;
+    margin-right: 5%;
+    float: right !important;
+}
+
+.para-3 {
+    align-items: center;
+    text-size-adjust: auto;
+}
+
+.space {
+    margin-right: 2%;
+    width: 25%; 
+    padding: 0.6%; 
+    margin-top: 2%;
+    margin-bottom: 1%;
+    resize: vertical;
+}
+
+.space-1 {
+    margin-right: 20px;
+    width: 100%; 
+    padding: 80px; 
+    margin-top: 1%; 
+    margin-bottom: 2%; 
+    resize: vertical;
+}
+.fname,
+.lname,
+.email,
+.message {
+    color: #e5c454;
+}
+
+.submit {
+    background-color: #656565;
+    color: #52d273;
+}
+
+@media (max-width: 1800px) {.fname, .lname, .email, .message {
+    display: block;
+}}
